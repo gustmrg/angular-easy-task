@@ -105,4 +105,8 @@ export class TasksComponent {
   onClickAddTask() {
     this.isAddTaskVisible = true;
   }
+
+  onCancelAddTask() {
+    this.isAddTaskVisible = false;
+  }
 }
